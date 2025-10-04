@@ -1,0 +1,85 @@
+<!--DECLARING MANDATORY STUFF ETC ETC-->
+<!DOCTYPE html>
+<html>
+    <!--invisible but necessary stuff-->
+    <head>
+        <meta charset="UTF-8">
+        <title>About me</title>
+        <meta name="viewport" content="width=device-width">
+        <!--Full size monitors-->
+        <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width:960px)">
+        <!--Tablets-->
+        <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width:959px)">
+        <!--Smart phones-->
+        <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
+        <style>
+            body {
+                background: url("background.png") no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <!--stuff people see-->
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>WELCOME TO ABOUT ME :D</h1>
+                <p> This is page is all about yours truly</p>
+                <nav>
+                    <!--panel of links to redirect ppl to places on the website-->
+                    <a href="index.html">Home Page</a>  
+                    <a href="feedback.html">Contact Me</a>  
+                    <a href="projects.html">Projects</a>
+                </nav>
+            </header>
+            <article>
+                <!--side bar pop up. has a fun fact just for fun-->
+                <aside>
+                    <p> Fun Fact: I have two cats. Not relevant but a cool fact to know :D </p>
+                </aside>
+                <!--actual personal info within sections divided into diff paragraphs-->
+                <section>
+                    <h3>Who am I?</h3>
+                    <p>Im Georgy Sim. I am currently 21 years old and I was born in Russia.</p>
+                </section>
+                <section>
+                    <h3>What do I do?</h3>
+                    <p>I am currently a cybersecurity student and this webpage is my first assignment!</p>
+                </section>
+
+                <!--video in the right column section defines properties for the video that plays with two diff sources
+                to ensure that it works everywhere-->
+                <div id="right-column">
+                    <video
+                        id="video" 
+                        width="100"
+                        height="200"
+                        controls 
+                        autoplay muted loop
+                        poster="selfie.jpg"
+                        preload="auto">
+                            <source src="self-introduction.mp4" type="video/mp4">
+                            <source src="self-introduction.ogv" type="video/ogv">
+                    </video> 
+                </div>
+                <!--media insert, specifically a photo of myself-->
+                <figure>
+                    <img src="selfie.jpg" width="210" height="240" alt="My Photo!">
+                    <figcaption>Here is a photo of me :D</figcaption>
+                </figure>
+            </article>
+            <!--footer at the bottom with an additional navigational panel-->
+            <footer>
+                <h5> Georgy Sim 100825730 </h5>
+                 <nav>
+                    <a href="index.html">Home Page</a>  
+                    <a href="feedback.html">Contact Me</a>  
+                    <a href="projects.html">Projects</a>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>

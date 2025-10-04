@@ -1,0 +1,56 @@
+<!--The HTML5 doctype declaration is very simple-->
+<!DOCTYPE HTML>
+<!--All page content is inside the HTML element-->
+<html>
+<!--Head element content is not visible in a browser window-->
+<head>
+    <!--The UTF-8 character set provides the most support for all symbols and
+    characters-->
+    <meta charset="UTF-8">
+    <title>HTML Template</title>
+    <meta name="viewport" content="width=device-width">
+    <!--Full size monitors-->
+    <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width:960px)">
+    <!--Tablets-->
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width:959px)">
+    <!--Smart phones-->
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
+    <style>
+        body {
+            background: url("background.png") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+<!--Content visible in the browser's window is inside the HTML element-->
+<body>
+<!--All our content is enclosed in the wrapper ID style-->
+<div id="wrapper">
+<!--The banner ID style is inside the wrapper ID style-->
+    <div id="banner">
+        <h1>Welcome To My Personal Portfolio Website!</h1>
+        <p>Made by Georgy Sim :D</p>
+    </div>
+    <!--left-column ID style is floated left and used for navigation-->
+    <h3>Where do you want to go? :3</h3>
+    <!--ul mean unordered list-->
+    <!--ol mean ordered list-->
+    <br>
+    <button onclick="document.location='index.html'">Home</button>
+    <button onclick="document.location='aboutme.html'">All About Me!</button>
+    <br>
+    <button onclick="document.location='projects.html'">My Projects</button>
+    <button onclick="document.location='feedback.html'">Contact Me!</button>
+
+</div>
+<!--right-column ID style is floated right and used for content-->
+<!--The clear class style clears (removes) float-->
+<div class="clear"></div>
+<div id="footer">
+<h5>Georgy Sim 100825730</h5>
+</div>
+</body>
+</html>

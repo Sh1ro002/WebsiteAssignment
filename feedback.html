@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Feedback Form</title>
+        <meta name="viewport" content="width=device-width">
+        <!--Full size monitors-->
+        <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width:960px)">
+        <!--Tablets-->
+        <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width:959px)">
+        <!--Smart phones-->
+        <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
+        <style>
+            body {
+                background: linear-gradient(40deg, #000, #fff);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+              <header>
+                <h1> Want to get in contact with me? </h1>
+                <p>Fill in the information below and I will do my best to respond to you ASAP! </p>
+                <nav>
+                    <a href="index.html">Home Page</a>
+                    <a href="aboutme.html">About Me Page</a> 
+                    <a href="projects.html">Projects</a>
+                </nav>
+            </header>
+            <form action="mailto:georgy.sim@ontariotechu.net?subject=ReachingOutFromWebsite"
+            enctype="text/plain" method="post" name="FeedbackForm">
+            <p>
+                <label for="FName">First Name: </label>
+                <input type="text" id="FName" name="FName" size="40"
+                placeholder="Enter your first name" required>
+            </p>
+            <p>
+                <label for="LName">Last Name: </label>
+                <input type="text" id="LName" name="LName" size="40"
+                placeholder="Enter your last name" required>
+            </p>
+            <p>
+                <label for="Email">Email: </label>
+                <input type="email" id="Email" name="Email" size="40"
+                placeholder="Enter your email address" required>
+            </p>
+            <p>
+                <label for="PhoneNum">Phone Number: </label>
+                <input type="tel" id="PhoneNum" name="PhoneNum" size="40"
+                placeholder="XXX-XXX-XXXX" required>
+            </p>
+            <p>
+                <label for="comments">Comments: </label>
+                <br>
+                <textarea id="comments" name="comments" cols="60" rows="8"></textarea>
+            </p>
+            <br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+            </form>
+            <br><br><br><br><br><br><br>
+            <footer>
+                <h5> Georgy Sim 100825730 </h5>
+                 <nav>
+                    <a href="index.html">Home Page</a> 
+                    <a href="feedback.html">Contact Me</a> 
+                    <a href="projects.html">Projects</a>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>

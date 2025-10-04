@@ -1,0 +1,67 @@
+<!-- decleration + setting of lang-->
+<!DOCTYPE html>
+<html lang="en">
+<!--invisible content from the website. setting stylesheets n such-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Template</title>
+    <!--Full size monitors-->
+    <link rel="stylesheet" type="text/css" href="fluid.css" media="only screen and (min-width:960px)">
+    <!--Tablets-->
+    <link rel="stylesheet" type="text/css" href="tablet.css" media="only screen and (min-width:481px) and (max-width:959px)">
+    <!--Smart phones-->
+    <link rel="stylesheet" type="text/css" href="phone.css" media="only screen and (max-width:480px)">
+    <style>
+        body {
+            background: url("background.png") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+<!--visible website content starts here, starting with the header-->
+<body>
+    <!--all content is enclosed in wrapper-->
+    <div id="wrapper">
+        <!--stuff that goes in the top (header)-->
+        <header>
+            <h1>WELCOME TO MY PROJECTS PAGE :D</h1>
+            <p>This page is all about my projects!</p>
+            <!--interactable links-->
+            <nav>
+                <a href="index.html">Home Page</a> 
+                <a href="aboutme.html">About Me Page</a> 
+                <a href="feedback.html">Contact Me</a>
+            </nav>
+        </header>
+        <!--actual information relating to projects. divided into paragraohs for easier viewing-->
+        <article>
+            <section>
+                <h3>Personal Portfolio Website</h3>
+                <p>The very first assignment we were assigned to do for this class. This is my first attempt at making a website based on what we were taught in class :D</p>
+            </section>
+            <section>
+                <h3>Tic Tac Toe Game</h3>
+                <p>Basic tic tac toe game make in C# with an attempt at an AI opponent. This whole project was essentially just a test to see if I could program an functional AI to play against.</p>
+            </section>
+            <section>
+                <h3>Random Number Generator</h3>
+                <p>Simple random number generator made in C#. Only done to make me familiar with C#.</p>
+            </section>
+            <section>
+                <h3>Basic Network Plan</h3>
+                <p>Super basic network design done in year 1. Models an example of a network on PacketTracer. Given mark of 100%</p>
+            </section>
+        </article>
+        <footer>
+            <h5> Georgy Sim 100825730 </h5>
+             <nav>
+                <a href="index.html">Home Page</a>
+                <a href="aboutme.html">About Me</a> 
+                <a href="feedback.html">Contact Me</a>
+            </nav>
+        </footer>
+    </div>
+</body>
