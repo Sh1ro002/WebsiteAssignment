@@ -6,3 +6,5 @@ used min width 481 max width 959 for tablets as is standard practice since betwe
 number device is considered to have tablet dimensions
 used min width 960 for laptop/desktop as is stanard practice because those dimensions and above are classified to be that
 and no tablet would have that kind of resolution
+
+code for button click effect was done with the help from this lesson: https://www.w3schools.com/css/css3_buttons.asp 
